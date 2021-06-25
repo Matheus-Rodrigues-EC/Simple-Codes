@@ -22,9 +22,6 @@ int main(void){
 	}else if(C == '/' and B == 0){
 		cout << "Indeterminacao matematica.";
 	}
-		
-	
-	
 	
 	return 0;
 }
