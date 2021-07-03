@@ -4,7 +4,7 @@ using namespace std;
 
 int main(void){
 	
-	int A, B;
+	float A, B;
 	char C;
 	
 	cout << "Digite o primeiro numero: ";
@@ -16,11 +16,11 @@ int main(void){
 	
 	if(C == '+') cout << "O resultado eh: " << A + B;
 	if(C == '-') cout << "O resultado eh: "  << A - B;
-	if(C == '*') cout << "O resultado eh: "  << A * B;
+	if(C == '*' || C == 'x' || C == 'X') cout << "O resultado eh: "  << A * B;
 	if(C == '/' and B!=0){
 		cout << "O resultado eh: "  << A / B;
 	}else if(C == '/' and B == 0){
-		cout << "Indeterminacao matematica.";
+		cout << "Indeterminado.";
 	}
 	
 	return 0;
