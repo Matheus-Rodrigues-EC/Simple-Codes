@@ -19,6 +19,11 @@ float raizQ(float A){
 }
 
 
+float porcentagem(float A, float B){
+	
+	return (B * (A/100));
+}
+
 int main(void){
 	
 	float A, B, aux;
@@ -49,9 +54,9 @@ int main(void){
 		cout << "Indeterminado.";
 	}
 	
-	if(C == '^') cout << potencia(A, B) << endl;
+	if(C == '^') cout << "O resultado eh: "  << potencia(A, B) << endl;
 	
-	
+	if(C == '%') cout << "Os " << B << "% correspondem a: "  << porcentagem(A, B) << endl;
 	
 	return 0;
 }
