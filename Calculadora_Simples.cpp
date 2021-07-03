@@ -5,8 +5,8 @@ using namespace std;
 
 float potencia(float A, float B){
 	
-	float result = A;
-	for(int i = 1; i < B; i++){
+	float result = 1;
+	for(int i = 1; i <= B; i++){
 		result = result * A;
 	}
 	return result;
