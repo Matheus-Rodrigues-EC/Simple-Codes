@@ -18,7 +18,6 @@ float raizQ(float A){
 	return result;
 }
 
-
 float porcentagem(float A, float B){
 	
 	return (B * (A/100));
